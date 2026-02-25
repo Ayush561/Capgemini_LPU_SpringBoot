@@ -1,0 +1,13 @@
+ package com.capgemini.springbootbasic;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication  //Any class which is marked with @SpringBootApplication is the entry point of the application
+public class SpringbootbasicApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootbasicApplication.class, args);  //run method will create the ioc container automatically, which we used to create manually.
+	}
+
+}
