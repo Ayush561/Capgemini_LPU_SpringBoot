@@ -1,0 +1,31 @@
+package com.capgemini.springbootbasic;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+
+@SpringBootApplication //Any class which is marked with @SpringBootApplication is the entry point of the application
+//@SpringBootApplication is a combination of @Configuration,@ComponentScan,@EnableAutoConfiguration -> tomcat server
+//Either use @SpringBootApplication or use the above three Annotations.
+public class SpringbootbasicApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext ioc = SpringApplication.run(SpringbootbasicApplication.class, args);  //run method will create the ioc container automatically, which we used to create manually.
+		
+		//Running this code will push the web application into the server
+		
+		//If you run the code, Server will start running, if you again run it then it will show error as Our server is running and you're again running it, First stop the running server then run again then it will not show any error.
+		
+		Doctor doc = ioc.getBean(Doctor.class);
+		doc.check();
+		
+		//If you want to change your port number you can do it in src/main/resources/application.properties and do server.port=5050 , then it will change the port from 8080 to 5050
+		
+		
+		//Now we will make a Controller for creation of URL
+		//In DemoController class we will use an Annotation @Controller to make it a controller then inside that we will make any method let's say hello() to check out server is working well
+		//Go to the DemoController class to find more
+	}
+
+}

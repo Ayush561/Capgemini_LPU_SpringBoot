@@ -305,3 +305,4 @@
 2026-02-25 17:18:13,315 [Worker-27: Launching SpringbootbasicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2026-02-25 17:18:13,340 [Worker-27: Launching SpringbootbasicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2026-02-25 17:18:13,351 [Worker-27: Launching SpringbootbasicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\LENOVO\Downloads\springbootbasic\springbootbasic\src\test\resources
+2026-02-25 22:08:48,636 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
