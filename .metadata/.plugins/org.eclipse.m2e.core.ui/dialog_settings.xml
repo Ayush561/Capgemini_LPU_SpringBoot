@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Capgemini_LPU_SpringBoot\Product_Category"/>
+			<item value="C:\Capgemini_LPU_SpringBoot\CustomMethodQuery"/>
+			<item value="C:\Capgemini_LPU_SpringBoot\springbootbasic"/>
+			<item value="C:\Capgemini_LPU_SpringBoot\springbootbasic\springbootbasic"/>
 			<item value="C:\Users\LENOVO\Downloads\springbootbasic"/>
 		</list>
 		<list key="projectNameTemplate">

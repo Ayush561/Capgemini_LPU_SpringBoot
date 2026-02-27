@@ -9,6 +9,10 @@ public class Car2 {
 	int id;
 	String brand;
 	double price;
+	
+	public Car2(){
+		
+	}
 	public int getId() {
 		return id;
 	}

@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import jakarta.persistence.EntityManagerFactory;
+
 
 @SpringBootApplication //Any class which is marked with @SpringBootApplication is the entry point of the application
 //@SpringBootApplication is a combination of @Configuration,@ComponentScan,@EnableAutoConfiguration -> tomcat server
@@ -26,6 +28,12 @@ public class SpringbootbasicApplication {
 		//Now we will make a Controller for creation of URL
 		//In DemoController class we will use an Annotation @Controller to make it a controller then inside that we will make any method let's say hello() to check out server is working well
 		//Go to the DemoController class to find more
+		
+		
+		//EntityManagerFactory has been made by SpringApplication.run
+		//To check if it has created we use
+		EntityManagerFactory emf = ioc.getBean(EntityManagerFactory.class);
+		System.out.println(emf);  //It will give the reference it means emf has been created automatically by SpringBootApplication
 	}
 
 }

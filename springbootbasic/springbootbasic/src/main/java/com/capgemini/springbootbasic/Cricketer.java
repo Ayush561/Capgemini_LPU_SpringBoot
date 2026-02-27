@@ -49,9 +49,5 @@ public class Cricketer {
 		return "Cricketer [name=" + name + ", role=" + role + ", runs=" + runs + ", no_of_match=" + no_of_match
 				+ ", average=" + average + "]";
 	}
-	
-	
-	
-	
 
 }
