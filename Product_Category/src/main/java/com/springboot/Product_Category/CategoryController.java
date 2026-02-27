@@ -3,6 +3,9 @@ package com.springboot.Product_Category;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -33,4 +36,10 @@ public class CategoryController {
     public String delete(@PathVariable int id) {
         return service.deleteById(id) ? "Deleted" : "Data not found";
     }
+    
+    public Page<Category> getCategory(int page,int size) {
+    	Page<Category> p = service.categoryRepo.findAll(PageRequest.of(page, size));
+    	return p;
+    }
+    
 }
