@@ -73,7 +73,7 @@ public class DemoController {
 	public String login(@ModelAttribute Users user) {
 		String email = user.getEmail();
 		String pass = user.getPassword();
-	    Users validUser = jpa.findByEmailAndPassword(email,pass);
+	    Users validUser = jpa.findByEmailAndPassword(email,pass); 
 
 	    if (validUser != null) {
 	        return "loginsuccess";
