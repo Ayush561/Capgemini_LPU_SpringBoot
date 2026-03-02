@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Capgemini_LPU_SpringBoot\url_shortener"/>
+			<item value="C:\Capgemini_LPU_SpringBoot\url_shortener\url_shortener"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\EmployeeAssignment"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\LibraryAssignment"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\springmvcboot"/>
