@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Capgemini_LPU_SpringBoot\CORSReact"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\FileUploadingDownloading"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\DTOLayerAndMapperLayer"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\RedisServerForGlobalCache"/>
@@ -16,7 +17,6 @@
 			<item value="C:\Capgemini_LPU_SpringBoot\LibraryAssignment"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\springmvcboot"/>
 			<item value="C:\Capgemini_LPU_SpringBoot\Assignment2_26thfeb"/>
-			<item value="C:\Capgemini_LPU_SpringBoot\Product_Category"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

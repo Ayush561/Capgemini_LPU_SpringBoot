@@ -40,6 +40,7 @@ public class FileController {
 		
 	}
 	
+	
 	@GetMapping("/download/{id}")
 	public ResponseEntity<byte[]> download(@PathVariable int id) {
 		FileData data = repository.findById(id).orElseThrow(()->new RuntimeException("File not found"));  //It will give raw data from the table.
